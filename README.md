@@ -5,6 +5,12 @@ This repo is based of https://github.com/gatsbyjs/gatsby-starter-blog.
 ## Local Dev environment
 See https://www.gatsbyjs.org/tutorial/part-zero/. I used node version 10 and had errors when using 12.
 
+Once you have node and gatsby installed:
+```
+npm install
+gatsby develop
+```
+
 ## Deployment
 Currently the repo is set up to deploy to the firebase. That was done follow this [tutorial](https://www.gatsbyjs.org/docs/deploying-to-firebase/).
 
