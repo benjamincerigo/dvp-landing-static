@@ -61,12 +61,14 @@ const staticProps = (window) => {
     return {...shared, ...lgOverride};
   }
   const xlgOverride = {
-    segments: 10,
-    growth: 80,
-    step: 0.002,
-    rows: 90,
+    segments: 4,
+    growth: 40,
+    step: 0.02,
+    rows: 60,
     perspectiveOffset: 150,
-    curveDiff: 0.20,
+    // The difference in noise between lines
+    //lineDiff: 0.01,
+    curveDiff: 0.5,
     lineWidth: 0.3,
   };
   return {...shared, ...xlgOverride};
