@@ -21,7 +21,7 @@ const staticProps = (window) => {
     // The difference in segments I think
     curveDiff: 0.50,
     lineWidth: 0.3,
-    lineColor: colors.dvpWhite,
+    lineColor: colors.dvpGrey,
     bgColor: colors.dvpDark,
     // Scaler that will be used to position
     // x1 of the curve
@@ -61,13 +61,15 @@ const staticProps = (window) => {
     return {...shared, ...lgOverride};
   }
   const xlgOverride = {
-    segments: 10,
-    growth: 80,
+    segments: 4,
+    growth: 30,
     step: 0.002,
-    rows: 90,
+    rows: 60,
     perspectiveOffset: 150,
-    curveDiff: 0.20,
-    lineWidth: 0.3,
+    // The difference in noise between lines
+    lineDiff: 0.1,
+    curveDiff: 2,
+    lineWidth: 0.6,
   };
   return {...shared, ...xlgOverride};
 };
