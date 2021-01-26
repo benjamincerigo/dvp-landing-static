@@ -6,8 +6,8 @@ import breakpoints from '../../styles/breakpoints.scss';
 
 const staticProps = (canvasProps) => {
   let strokeProps = {
-    lineWidth: 0.3,
-    lineColor: colors.dvpGreyWave1,
+    lineWidth: 1,
+    lineColor: colors.dvpGreyWave2,
   };
 
   if (canvasProps.computedDevicePixelRatio > 1) {
